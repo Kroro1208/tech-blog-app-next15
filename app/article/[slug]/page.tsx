@@ -1,4 +1,4 @@
-import Counter from "@/app/_components/Counter";
+import Counter from "@/_components/Counter";
 
 type ArticleParamas = Promise<{ slug: string }>; // Next15からparamsはPromiseとして扱う
 
@@ -12,7 +12,6 @@ export default async function ArticlePage({
   return (
     <>
       <h1>{slug}記事ページ</h1>
-      <Counter />
     </>
   );
 }
