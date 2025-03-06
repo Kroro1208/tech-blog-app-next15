@@ -18,9 +18,12 @@ const Navbar = () => {
             <h1 className="">Dashboard</h1>
           </Link>
         </div>
-        <div>
+        <div className="flex gap-3">
           <Link href="/">
-            <Button variant="outline">戻る</Button>
+            <Button variant="outline">Login</Button>
+          </Link>
+          <Link href="/">
+            <Button variant="ghost">Logout</Button>
           </Link>
         </div>
       </div>
